@@ -1,0 +1,65 @@
+<div id="todo-form" 
+    style="
+          display: flex;
+          flex-direction: column;
+          flex-grow: 0;
+          align-items: center;
+          justify-content: center;
+          height: 100vh;
+          ">
+  <p style="margin: 0 auto 40px; font-size: 25px;">
+        Add a To-Do
+  </p>
+  <form>
+    <label style="position: relative; display: block;">
+      <p>Title *</p>
+      <input autocomplete="off" id="title" type="text" placeholder="Title"
+      style="
+        box-sizing: border-box;
+        display: block;
+        padding: 20px;
+        width: 300px;
+        margin-bottom: 20px;
+        font-size: 18px;
+        outline: none;
+      "
+      >
+    </label>
+    <label style="position: relative; display: block;">
+      <p>Body *</p>
+      <input autocomplete="off" id="body" type="text" placeholder="Body"
+      style="
+        box-sizing: border-box;
+        display: block;
+        padding: 20px;
+        width: 300px;
+        margin-bottom: 20px;
+        font-size: 18px;
+        outline: none;
+      "
+      >
+    </label>
+    <label style="position: relative; display: block;">
+      <p>Date</p>
+      <input id="date" type="date" placeholder="Date"
+      style="
+        box-sizing: border-box;
+        display: block;
+        padding: 20px;
+        width: 300px;
+        margin-bottom: 20px;
+        font-size: 18px;
+        outline: none;
+      "
+      >
+    </label>
+    <input type="submit" id="todo_submit"
+    style="
+      background: #1aaf75;
+      color: #fff;
+      padding: 16px 40px;
+      border: none;
+    "
+    >
+  </form>
+</div>

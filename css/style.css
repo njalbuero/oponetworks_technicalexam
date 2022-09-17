@@ -1,0 +1,42 @@
+body{
+    background: #66BB6A;
+    font-family: 'Nunito', sans-serif;
+}
+
+nav a{
+    color: #000 !important;
+}
+
+.input-error{
+    color: #F8BBD0;
+    margin: 0;
+}
+
+
+.grid { 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+.grid > div {
+    background-color: #1aaf75;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+}
+.todo {
+    padding: 20px;
+    color: #fafafa;
+    border: none;
+}
+.todo > button {
+    background: #FB8C00;
+    color: #fafafa;
+    padding: 16px 40px;
+    border: none;
+}
+
+.todo > .delete-btn{
+    background: #E53935;
+    margin-top: 5px;
+}
+
+ 
